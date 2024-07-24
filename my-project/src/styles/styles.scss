@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.input {
+  @apply border p-2 rounded-md w-full;
+}
+
+.btn {
+  @apply bg-blue-500 text-white p-2 rounded-md;
+}
+
+.upload {
+  @apply border border-2 border-gray-300 p-4 rounded-md text-center cursor-pointer;
+}
+
+.btn-red {
+  @apply bg-red-500 text-white p-2 rounded-md;
+}
