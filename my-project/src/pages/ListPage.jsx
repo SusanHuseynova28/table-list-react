@@ -41,6 +41,7 @@ function ListPage() {
               <td>{item.email}</td>
               <td>{item.date}</td>
               <td>{item.id}</td>
+              <td>{item.image}</td>
               <td>
                 <button
                   onClick={() => handleDelete(item.id)}

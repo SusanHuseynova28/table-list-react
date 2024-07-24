@@ -14,6 +14,7 @@ function HomePage() {
     email: '',
     date: '',
     id: '',
+    image:'',
   });
 
   const [file, setFile] = useState(null);
@@ -54,7 +55,7 @@ function HomePage() {
     await mutate('/api/data', updatedData, false);
 
  
-    setFormData({ name: '', function: '', review: '', email: '', date: '', id: '' });
+    setFormData({ name: '', function: '', review: '', email: '', date: '', id: '',image:''});
     setFile(null);
 
 
